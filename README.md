@@ -4,6 +4,26 @@ I created this as a reference for myself to look back to when I set up a new mac
 
 ---
 
+Table of contents: 
+
+- [VS Code](#download-vs-code)
+- [Homebrew](#download-homebrew)
+- [RVM](#download-rvm)
+- [Ruby](#download-ruby)
+- [Pry](#download-pry)
+- [Node](#download-node)
+- [npm](#download-npm)
+- [Docker](#download-docker)
+- [Postgresql](#download-postgres)
+- [TablePlus](#download-tableplus)
+- [CloudFoundry](#download-cloudfoundry)
+- [Dash](#download-dash)
+- [Figma](#download-figma)
+- [Magnet](#download-magnet)
+- [PGAdmin](#download-pgadmin)
+
+---
+
 ## Download VS Code
 
 Visit `https://code.visualstudio.com/docs/?dv=osx` and follow the installation setup. 
@@ -31,7 +51,7 @@ Hit `shift => command => p` and then type in `Preferences: Open Settings (JSON)`
 
 Replace the contents of the file with: 
 
-```
+```json
 {
     "editor.tabSize": 2,
     "liveServer.settings.donotShowInfoMsg": true,
@@ -134,47 +154,52 @@ More info, visit `https://www.postgresql.org/download/macosx/`
 
 ## Download TablePlus
 
+Visit: `https://tableplus.com/download`
 
 ---
 
 ## Download Cloud Foundry
 
+From your terminal, run: 
 
+`brew install cloudfoundry/tap/cf-cli`
 
 ---
 
 ## Download Dash
 
+Visit: `https://kapeli.com/dash`
 
 ---
 
-## Download Adobe XD
-
-
----
 
 ## Download Figma
 
+Visit: `https://www.figma.com/downloads/`
 
 ---
 
 ## Download Magnet
 
+Visit the app store
 
 ---
 
 ## Download PGAdmin
 
-
----
-
-## Download Chrome
-
+Visit: `https://www.pgadmin.org/download/`
 
 ---
 
 ## Download Chrome Extensions
 
+- JSON Formatter
+- Lighthouse
+- Grammarly
+- Disable JavaScript
+- React Developer Tools
+- Ad Blocker
+- Allow CORS
 
 ---
 
