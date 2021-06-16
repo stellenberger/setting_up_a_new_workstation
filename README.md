@@ -68,6 +68,22 @@ Replace the contents of the file with:
 }
 ```
 
+and make sure its your default code editor.
+
+---
+
+## Download Git
+
+Running `git --version` will prompt you to download git on mac devices running Mavericks and up
+
+---
+
+## Connect to Git and GitHub
+
+Follow the instructions here: 
+
+http://burnedpixel.com/blog/setting-up-git-and-github-on-your-mac/
+
 ---
 
 ## Download Homebrew
@@ -200,11 +216,6 @@ Visit: `https://www.pgadmin.org/download/`
 - React Developer Tools
 - Ad Blocker
 - Allow CORS
-
----
-
-## Connect to Git and GitHub
-
 
 ---
 
