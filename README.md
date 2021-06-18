@@ -67,7 +67,9 @@ Replace the contents of the file with:
 }
 ```
 
-and make sure its your default code editor.
+and make sure its your default code editor by doing the `shift command p` command and then typing shell command, and selecting the `Install 'code' command`
+
+
 
 ---
 
@@ -172,6 +174,10 @@ From your terminal, run:
 `brew install postgresql`
 
 More info, visit `https://www.postgresql.org/download/macosx/`
+
+and start it by running: 
+
+`pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start`
 
 ---
 
