@@ -167,6 +167,34 @@ To see that everything works!
 
 ---
 
+## Download redis
+
+From your terminal, run: 
+
+`brew install redis`
+
+`redis-server --daemonize yes`
+
+---
+
+## Download yarn
+
+From your terminal, run: 
+
+`brew install yarn`
+
+---
+
+## Download nvm
+
+From your terminal, run: 
+
+`curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash`
+
+`source ~/.nvm/nvm.sh`
+
+---
+
 ## Download Postgres
 
 From your terminal, run: 
