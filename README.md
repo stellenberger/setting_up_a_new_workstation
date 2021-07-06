@@ -21,6 +21,7 @@ Table of contents:
 - [Figma](#download-figma)
 - [Magnet](#download-magnet)
 - [PGAdmin](#download-pgadmin)
+- [Configuring Git](#configuring-git)
 
 ---
 
@@ -231,7 +232,23 @@ Go to `https://toolbelt.heroku.com/osx` and download the CLI
 
 ---
 
-## Some nice-to-have with git
+## Configuring Git
+
+From your terminal, type..
+
+`vim ~/.gitconfig`
+
+And inside the following file that pops up, put in the following things. These are only nice-to-haves and are not essential in your development. 
+
+```bash
+[user]
+        name = {Your Name}
+        email = {Your Email}
+[core]
+        editor = /usr/bin/vim
+[push]
+        default = current
+```
 
 
 
