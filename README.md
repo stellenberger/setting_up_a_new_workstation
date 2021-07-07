@@ -65,11 +65,12 @@ Replace the contents of the file with:
     "emmet.includeLanguages": {
         "erb": "html"
     },
-    "window.zoomLevel": -1
 }
 ```
 
-and make sure its your default code editor.
+and make sure its your default code editor by doing the `shift command p` command and then typing shell command, and selecting the `Install 'code' command`
+
+
 
 ---
 
@@ -84,6 +85,10 @@ Running `git --version` will prompt you to download git on mac devices running M
 Follow the instructions here: 
 
 http://burnedpixel.com/blog/setting-up-git-and-github-on-your-mac/
+
+After following those instructions, you probbaly created a keychain passcode. To ensure you dont have to input it for EVERY action, you can save it on your machine following this:
+
+https://stackoverflow.com/questions/10032461/git-keeps-asking-me-for-my-ssh-key-passphrase
 
 ---
 
@@ -114,6 +119,10 @@ From your terminal, run
 And check it works through this; 
 
 `type rvm | head -n 1`
+
+If you get some errors, try the following: 
+
+https://stackoverflow.com/questions/11677771/rvm-command-not-found-mac-ox
 
 ---
 
@@ -159,6 +168,34 @@ To see that everything works!
 
 ---
 
+## Download redis
+
+From your terminal, run: 
+
+`brew install redis`
+
+`redis-server --daemonize yes`
+
+---
+
+## Download yarn
+
+From your terminal, run: 
+
+`brew install yarn`
+
+---
+
+## Download nvm
+
+From your terminal, run: 
+
+`curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash`
+
+`source ~/.nvm/nvm.sh`
+
+---
+
 ## Download Postgres
 
 From your terminal, run: 
@@ -166,6 +203,10 @@ From your terminal, run:
 `brew install postgresql`
 
 More info, visit `https://www.postgresql.org/download/macosx/`
+
+and start it by running: 
+
+`pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start`
 
 ---
 
