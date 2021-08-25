@@ -152,6 +152,9 @@ From your terminal, run:
 
 `brew install npm`
 
+and to make sure you are not attacked by a virus outbreak, if it were to happen
+
+`npm config set ignore-scripts true`
 ---
 
 ## Download Docker
