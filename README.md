@@ -70,7 +70,11 @@ Replace the contents of the file with:
 
 and make sure its your default code editor by doing the `shift command p` command and then typing shell command, and selecting the `Install 'code' command`
 
+If it doesnt work...
 
+do the following and then try the previous step. 
+
+`sudo rm /usr/local/bin/code`
 
 ---
 
