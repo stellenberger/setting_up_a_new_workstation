@@ -8,6 +8,7 @@ Table of contents:
 
 - [VS Code](#download-vs-code)
 - [Intellij](#download-intellij)
+- [Java](#download-java)
 - [Homebrew](#download-homebrew)
 - [RVM](#download-rvm)
 - [Ruby](#download-ruby)
@@ -82,6 +83,18 @@ do the following and then try the previous step.
 ## Download Intellij
 
 Visit `https://www.jetbrains.com/idea/download/#section=mac` and download the Community Edition (unless you have bought the Ultimate Edition)
+
+---
+
+## Download Java
+
+Visit `https://www.oracle.com/java/technologies/downloads/#jdk17-mac` and download the Standard Edition. 
+
+Click on the DMG installer as it does the process automatically. 
+
+If you are on Apple silicon, click the ARM
+
+If on intel, just the x64.
 
 ---
 
