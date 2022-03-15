@@ -1,12 +1,13 @@
 # Setting up a new workstation
 
-I created this as a reference for myself to look back to when I set up a new machine. This is specifically set up to accomodate the *ruby* developer. However, if you are a web developer in general, you will probably still find this set-up somewhat useful. I would just skip the RVM, Ruby and pry steps and you are good to go. 
+I created this as a reference for myself to look back to when I set up a new machine. This is specifically set up to accomodate the *ruby* and *java* developer. However, if you are a web developer in general, you will probably still find this set-up somewhat useful. I would just skip the RVM, Ruby and pry steps and you are good to go. 
 
 ---
 
 Table of contents: 
 
 - [VS Code](#download-vs-code)
+- [Intellij](#download-intellij)
 - [Homebrew](#download-homebrew)
 - [RVM](#download-rvm)
 - [Ruby](#download-ruby)
@@ -75,6 +76,12 @@ If it doesnt work...
 do the following and then try the previous step. 
 
 `sudo rm /usr/local/bin/code`
+
+---
+
+## Download Intellij
+
+Visit `https://www.jetbrains.com/idea/download/#section=mac` and download the Community Edition (unless you have bought the Ultimate Edition)
 
 ---
 
