@@ -223,6 +223,12 @@ From your terminal, run:
 
 ---
 
+## Download Postman
+
+Visit [the postman downloads page](https://www.postman.com/downloads/)
+
+---
+
 ## Download Postgres
 
 From your terminal, run: 
