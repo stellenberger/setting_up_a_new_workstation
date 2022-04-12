@@ -16,6 +16,7 @@ Table of contents:
 - [Node](#download-node)
 - [npm](#download-npm)
 - [Docker](#download-docker)
+- [Postman](#download-postman)
 - [Postgresql](#download-postgres)
 - [TablePlus](#download-tableplus)
 - [CloudFoundry](#download-cloudfoundry)
@@ -240,6 +241,36 @@ More info, visit `https://www.postgresql.org/download/macosx/`
 and start it by running: 
 
 `pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start`
+
+*OR*
+
+`brew services start postgresql`
+
+and continue the setup by tapping in: 
+
+`psql postgres`
+
+### Option 1 (DO THIS)
+
+Or set up with your own user
+
+`whoami`
+
+`postgres=# CREATE DATABASE "your_user_name_here";`
+
+### Option 2
+
+Or set up your main generic with admin privileges: 
+
+`CREATE ROLE postgres WITH LOGIN PASSWORD 'password';`
+
+`ALTER ROLE newUser CREATEDB;`
+
+Then quit and login with the new credentials: 
+
+`/q`
+`psql postgres -U {userName you created last step, ie postgres};`
+
 
 ---
 
