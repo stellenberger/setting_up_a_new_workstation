@@ -13,6 +13,8 @@ Table of contents:
 - [RVM](#download-rvm)
 - [Ruby](#download-ruby)
 - [Pry](#download-pry)
+- [Maven](#download-maven)
+- [Make hidden files visible](#make-hidden-files-visible)
 - [Node](#download-node)
 - [npm](#download-npm)
 - [Docker](#download-docker)
@@ -271,6 +273,24 @@ Then quit and login with the new credentials:
 `/q`
 `psql postgres -U {userName you created last step, ie postgres};`
 
+
+---
+
+## Download Maven
+
+Run: `brew install maven`
+
+and check it completed successfully by: 
+
+`mvn --version`
+
+---
+
+## Make hidden files visible
+
+Open finder, and press: `command-shift-dot`
+
+Hidden directories should be now visible
 
 ---
 
