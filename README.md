@@ -19,6 +19,7 @@ Table of contents:
 - [npm](#download-npm)
 - [Docker](#download-docker)
 - [Postman](#download-postman)
+- [Tree](#download-tree)
 - [Postgresql](#download-postgres)
 - [TablePlus](#download-tableplus)
 - [CloudFoundry](#download-cloudfoundry)
@@ -229,6 +230,14 @@ From your terminal, run:
 ## Download Postman
 
 Visit [the postman downloads page](https://www.postman.com/downloads/)
+
+---
+
+## Download Tree
+
+From your terminal, run:
+
+`brew install tree`
 
 ---
 
