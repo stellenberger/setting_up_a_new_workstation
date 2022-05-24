@@ -1,6 +1,6 @@
 # Setting up a new workstation
 
-I created this as a reference for myself to look back to when I set up a new machine. This is specifically set up to accomodate the *ruby* and *java* developer. However, if you are a web developer in general, you will probably still find this set-up somewhat useful. I would just skip the RVM, Ruby and pry steps and you are good to go. 
+I created this as a reference for myself to look back to when I set up a new machine. This is specifically set up to accomodate the *ruby*, *java* and *python* developer. However, if you are a web developer in general, you will probably still find this set-up somewhat useful. I would just skip the RVM, Ruby and pry steps and you are good to go. 
 
 ---
 
@@ -102,6 +102,8 @@ To install plugins, `cmd -> ,` to open the preferences window, and select plugin
 5. Extra Icons
 6. Rainbow Brackets
 7. Maven helper
+8. VSCode Keymap
+(for the vscode keymap, you must also go to `cmd -> ,` and select keymap, and select vscode macos from the dropdown menu)
 
 ## Download Java
 
@@ -118,6 +120,13 @@ If on intel, just the x64.
 ## Download Git
 
 Running `git --version` will prompt you to download git on mac devices running Mavericks and up
+
+---
+
+
+## Download Python
+
+Visit [this downloads page](https://www.python.org/downloads/)
 
 ---
 
