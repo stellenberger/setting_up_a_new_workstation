@@ -90,6 +90,19 @@ Visit `https://www.jetbrains.com/idea/download/#section=mac` and download the Co
 
 ---
 
+
+## Intellij Plugins
+
+To install plugins, `cmd -> ,` to open the preferences window, and select plugins, followed by the marketplace tab. 
+
+1. Python Community Edition
+2. GitToolBox
+3. Jump to line
+4. EduTools
+5. Extra Icons
+6. Rainbow Brackets
+7. Maven helper
+
 ## Download Java
 
 Visit `https://www.oracle.com/java/technologies/downloads/#jdk17-mac` and download the Standard Edition. 
