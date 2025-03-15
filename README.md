@@ -7,6 +7,7 @@ I created this as a reference for myself to look back to when I set up a new mac
 Table of contents: 
 
 - [VS Code](#download-vs-code)
+- [Iterm](#iterm)
 - [Intellij](#download-intellij)
 - [Java](#download-java)
 - [Homebrew](#download-homebrew)
@@ -28,8 +29,41 @@ Table of contents:
 - [Magnet](#download-magnet)
 - [PGAdmin](#download-pgadmin)
 - [Configuring Git](#configuring-git)
+- [Oh My ZSH](#oh-my-zsh)
 
 ---
+
+## Iterm
+
+install from the official website. 
+
+Create new key bindings. 
+
+open preferences: 
+
+```
+command + ,
+```
+
+Click on the Keys tab.
+
+Click + (Add a new key mapping).
+
+Press Option + Backspace as the shortcut.
+
+Set Action to Send Hex Code.
+
+```
+0x1b 0x08
+```
+
+and for entire line (Command and Backspace)
+
+
+```
+0x15
+```
+
 
 ## Download VS Code
 
@@ -87,6 +121,26 @@ do the following and then try the previous step.
 ## Download Intellij
 
 Visit `https://www.jetbrains.com/idea/download/#section=mac` and download the Community Edition (unless you have bought the Ultimate Edition)
+
+Then to make the idea shortcut for the terminal, once downloaded, run: 
+
+```
+sudo nano /usr/local/bin/idea
+```
+
+paste the following in: 
+
+```
+open -na "IntelliJ IDEA CE.app" --args "$@"
+```
+
+Exit and save. 
+
+Make it executable
+
+```
+sudo chmod +x /usr/local/bin/idea
+```
 
 ---
 
@@ -209,9 +263,7 @@ and to make sure you are not attacked by a virus outbreak, if it were to happen
 
 ## Download Docker
 
-From your terminal, run:
-
-`brew cask install docker`
+Download docker from https://www.docker.com/
 
 and once thats finished, run:
 
@@ -380,10 +432,28 @@ Visit: `https://www.pgadmin.org/download/`
 
 Go to `https://toolbelt.heroku.com/osx` and download the CLI
 
-
 ---
 
-## Connect to Cloud Foundry
+## Oh My ZSH
+
+Go to `https://toolbelt.heroku.com/osx` and download the CLI
+
+Install plugins: 
+
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+```
+nano ~/.zshrc
+```
+
+```
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+```
+
+Save and Exit. 
 
 
 ---
